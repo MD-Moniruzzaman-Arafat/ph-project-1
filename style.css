@@ -154,3 +154,20 @@ header::after {
     width: 20px;
     margin: 0 10px;
 }
+
+.signleCardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.signleCardContainer>button {
+    background-color: #52C303;
+    border: none;
+    padding: 10px 20px;
+    color: #FFF;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-top: 30px;
+}
